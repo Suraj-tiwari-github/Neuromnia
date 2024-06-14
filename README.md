@@ -1,6 +1,3 @@
-write the entire below readme.md in markdown
-
-
 # Neuromnia Full-Stack Engineer Take-Home Assignment
 
 ## 🎯 Goal: Build a Simple Milestone Lookup Chatbot

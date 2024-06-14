@@ -24,7 +24,7 @@ This assignment assesses your ability to:
 Clone the repository to your local machine using:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/neuromnia-fse-take-home.git
+git clone https://github.com/neuromnia/fse-take-home.git
 ```
 
 ### 2. Start the Backend Server
@@ -43,7 +43,7 @@ Both servers should now be running!
 
 ## 📝 The Assignment
 
-You will work with data located in `backend/data/vb_mapp_milestones.csv`. Consider it similar to a spreadsheet.
+You will work with data located in `backend/vb_mapp_milestones.csv`. Consider it similar to a spreadsheet.
 
 **Your task is to build a web app allowing users to:**
 
@@ -52,7 +52,7 @@ You will work with data located in `backend/data/vb_mapp_milestones.csv`. Consid
 
 ## 💻 Frontend (React)
 
-- **Utilize the starter code in `frontend/src/components/ChatInterface.js`.**
+- **Utilize the starter code in `frontend/components/ChatInterface.js`.**
 - **Tasks to implement:**
     - Button logic to trigger requests to your backend at `/api/chatbot` for actions:
         - "Lookup Milestone" — sending the entered code.

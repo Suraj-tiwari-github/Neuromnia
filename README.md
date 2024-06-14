@@ -8,7 +8,7 @@ This assignment assesses your ability to:
 - **Work with provided data (you don't need any prior knowledge about the data itself).**
 - **Write clean and understandable code.**
 
-**Time Budget:** Target completing this in a single session, around **6 hours**.
+**Time Budget:** This assignment should not take more than **6 hours** to complete.
 
 **Important:** You should **NOT** need any resources beyond:
 * What's in this repository.

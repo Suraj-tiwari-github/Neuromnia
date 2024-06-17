@@ -59,7 +59,7 @@ You will work with data located in `backend/vb_mapp_milestones.csv`. Consider it
 
 ## ⚙️ Backend (Node.js & Express)
 
-- **Utilize the provided `backend/index.js`.**
+- **Utilize the provided `frontend/index.js`.**
 - **Key implementations:**
     - **Load `vb_mapp_milestones.csv` into memory when the server starts.**
     - **API Endpoint (`/api/chatbot`):**

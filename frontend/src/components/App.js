@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ChatInterface from './components/ChatInterface';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ChatInterface from "./components/ChatInterface";
 
 function App() {
   return (

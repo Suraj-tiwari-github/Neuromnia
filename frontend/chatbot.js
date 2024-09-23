@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
 /**
@@ -45,15 +45,17 @@ const router = express.Router();
 const validateMessage = (req, res, next) => {
   const { message } = req.body;
   if (!message) {
-    return res.status(400).json({ error: 'Message is required' });
+    return res.status(400).json({ error: "Message is required" });
   }
-  if (typeof message !== 'string' || message.trim().length === 0) {
-    return res.status(400).json({ error: 'Message must be a non-empty string' });
+  if (typeof message !== "string" || message.trim().length === 0) {
+    return res
+      .status(400)
+      .json({ error: "Message must be a non-empty string" });
   }
   next();
 };
 
-router.post('/', validateMessage, (req, res) => {
+router.post("/", validateMessage, (req, res) => {
   const { message } = req.body;
   // Simulating a response that might involve more logic
   const responseMessage = `Processed your message: ${message}`;
